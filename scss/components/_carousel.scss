@@ -63,16 +63,26 @@
   }
 
   &.owl-prev {
-    left: $spacer;
+    left: -20px;
   }
 
   &.owl-next {
-    right: $spacer;
+    right: -20px;
   }
 
   .fas {
     font-size: 3rem;
-    color: #fff;
+    color: $purple;
+
   }
+
+
+
 }
+
+.owl-theme .owl-nav .disabled{
+  opacity: 1;
+}
+
+
 

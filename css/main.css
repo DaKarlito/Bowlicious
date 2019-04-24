@@ -378,19 +378,22 @@ h1 {
     .stellarnav .close-menu .icon-close::before, .stellarnav .close-menu .icon-close::after {
       width: 30px; }
 
-@media (min-width: 700px) {
-  .stellarnav ul {
-    background-color: #9d1d64;
-    text-transform: uppercase; }
-    .stellarnav ul li > a {
-      color: #fff;
-      padding: 1rem;
-      margin: 0 1rem; }
-      .stellarnav ul li > a:hover {
-        color: #fca4a4; } }
+.stellarnav ul {
+  display: flex;
+  justify-content: space-around; }
+  @media (min-width: 700px) {
+    .stellarnav ul {
+      background-color: #9D1D64;
+      text-transform: uppercase; }
+      .stellarnav ul li > a {
+        color: #fff;
+        padding: 1rem;
+        margin: 0 1rem; }
+        .stellarnav ul li > a:hover {
+          color: #fca4a4; } }
 
 .stellarnav.mobile.dark ul {
-  background: #9d1d64; }
+  background: #9D1D64; }
 
 .container {
   max-width: 1200px;
@@ -405,9 +408,14 @@ h1 {
   height: auto; }
 
 .brand img {
-  width: 200 px;
-  height: 200px;
-  margin-top: 100px; }
+  width: 400px;
+  height: 400px;
+  margin-top: 20px; }
+  @media (max-width: 1024px) {
+    .brand img {
+      width: 200px;
+      height: 200px;
+      margin-top: 50px; } }
   @media (max-width: 425px) {
     .brand img {
       margin-top: 20px; } }
@@ -433,7 +441,7 @@ h1 {
   align-items: center;
   justify-content: flex-end;
   min-height: 95vh;
-  padding: 20px 0; }
+  padding: 20px 0 0; }
 
 /* .logo{
   width: 300px;
@@ -445,14 +453,15 @@ h1 {
   }
 } */
 .slogan {
-  background: rgba(255, 255, 255, 0.466);
+  background: rgba(255, 255, 255, 0.74);
   padding: 2rem;
   margin-top: auto;
   width: 100%;
   text-align: center; }
   .slogan p {
-    font-size: 1.5rem;
-    text-transform: uppercase; }
+    font-size: 3rem;
+    color: #9D1D64;
+    font-family: 'Pacifico'; }
 
 .contact-container {
   display: flex;
@@ -624,22 +633,30 @@ h1 {
     .owl-nav button {
       top: calc(50% - 1.5rem); } }
   .owl-nav button.owl-prev {
-    left: 15px; }
+    left: -20px; }
   .owl-nav button.owl-next {
-    right: 15px; }
+    right: -20px; }
   .owl-nav button .fas {
     font-size: 3rem;
-    color: #fff; }
+    color: #9D1D64; }
+
+.owl-theme .owl-nav .disabled {
+  opacity: 1; }
 
 .bowls {
   background: url("../img/bcgbowls.jpg") center;
-  background-size: contain; }
+  background-size: cover; }
 
-.gallery-2 {
+.gallery-1 {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap; }
 
+/* .gallery-2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+} */
 figure {
   display: flex;
   flex-direction: column;

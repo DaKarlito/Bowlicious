@@ -5,20 +5,22 @@
 
 .bowls{
     background: url('../img/bcgbowls.jpg') center;
-    background-size: contain;
+    background-size: cover;
 }
 
-// .gallery-1{
-//     display: flex;
-//     flex-wrap: wrap;
-// }
 
-.gallery-2{
+
+.gallery-1{
+     display: flex;
+     flex-wrap: wrap;
+}
+
+/* .gallery-2{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 
-}
+} */
 
 
 figure{

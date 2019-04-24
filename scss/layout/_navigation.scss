@@ -45,10 +45,12 @@
 }
 
 .stellarnav ul {
+  display: flex;
+  justify-content: space-around;
 
   @media (min-width: 700px) {
 
-    background-color: #9d1d64;
+    background-color: $purple;
     text-transform: uppercase;
 
     li>a {
@@ -66,5 +68,5 @@
 }
 
 .stellarnav.mobile.dark ul{
-  background: #9d1d64;
+  background: $purple;
 }

@@ -380,7 +380,8 @@ h1 {
 
 @media (min-width: 700px) {
   .stellarnav ul {
-    background-color: #1eac1e; }
+    background-color: #9d1d64;
+    text-transform: uppercase; }
     .stellarnav ul li > a {
       color: #fff;
       padding: 1rem;
@@ -389,7 +390,7 @@ h1 {
         color: #fca4a4; } }
 
 .stellarnav.mobile.dark ul {
-  background: #74089e; }
+  background: #9d1d64; }
 
 .container {
   max-width: 1200px;

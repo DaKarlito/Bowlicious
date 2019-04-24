@@ -1,0 +1,18 @@
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-form input {
+  border: none;
+  background-color:  #a51699;
+  padding: 0 0.875rem;
+  border-radius: 5px 0 0 5px;
+  font-size: 0.875rem;
+  transition: 0.3s;
+}
+
+.search-form input:focus {
+  background-color: rgb(212, 197, 210);
+}

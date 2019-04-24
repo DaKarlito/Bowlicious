@@ -1,0 +1,211 @@
+// ####################################
+//     BOWLS 
+// ###################################
+
+
+.bowls{
+    background: url('../img/bcgbowls.jpg') center;
+    background-size: contain;
+}
+
+// .gallery-1{
+//     display: flex;
+//     flex-wrap: wrap;
+// }
+
+.gallery-2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 320px;
+    margin: 30px auto;
+
+}
+
+figcaption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 320px;
+}
+
+.gauche{
+    background: #F05875;
+    color: #fff;
+}
+
+.milieu{
+    background: #9ECB3A;
+    color: #fff;
+}
+
+.droite{
+    background: #D8AE00;
+    color: #fff;
+}
+
+.dyi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.allofit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.basgauche{
+    background: #8BF8F4;
+    color: #fff;
+}
+
+.basdroite{
+    background: #70A749;
+    color: #fff;
+}
+
+// ####################################
+//     VALEURS 
+// ###################################
+
+.valeurs{
+    background: url('../img/bgvaleurs.jpg') center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.item img{
+    width: 93px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+}
+
+.item p{
+    width: 173px;
+    margin: 3rem;
+}
+
+.background-content{
+    background: #fff;
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-height: 80vh;
+  
+}
+
+// ####################################
+//     RESTAUS 
+// ###################################
+
+.restoflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #699555;
+    padding: 2rem;
+}
+
+// ####################################
+//     FRANCHISE 
+// ###################################
+
+.franchise{
+    background: url('../img/bg-franchise.jpg') center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.bcg-middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.418);
+    width: 80%;
+    padding: 2rem;
+    min-height: 80vh;
+}
+
+// ####################################
+//     JOINS US 
+// ###################################
+
+.joinus{
+    background: url('../img/bgjoinus.jpg') center no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+
+
+// ####################################
+//     BOWLICOMMUNAUTE
+// ###################################
+
+.insta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+ul li{
+    list-style: none;
+}
+
+.insta{
+    font-size: 0;
+  }
+  
+  .btn-rs{
+    font-size: 0;
+  }
+  
+  .socialbtns ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+  }
+
+ 
+  .news a{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+  
+  }
+
+  .btn{
+      text-align: center;
+  }
+

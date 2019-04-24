@@ -1,0 +1,43 @@
+.search-form button {
+    border: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0 5px 5px 0;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    background: #a51699;;
+  }
+  
+  ::placeholder{
+    color: #fff;
+  }
+  
+  
+  
+  .search-form button:hover {
+    color: #fff;
+    background-color: #846b82;
+  }
+  
+  .btn {
+    text-align: center;
+    display: inline-block;
+    padding: 1em 2em;
+    background-color:  #a51699;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color:  #a51699;
+    box-shadow: inset 0 0 0 4px  #a51699
+  }
+
+  .btn-rs{
+    font-size: 0;
+  }
+  

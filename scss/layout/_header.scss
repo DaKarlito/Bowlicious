@@ -1,0 +1,108 @@
+
+
+.page-header{
+  background: url('../img/zehero.jpg')center center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+}
+
+.brand img{
+  width: 200 px;
+  height: 200px;
+  margin-top: 100px;
+  @media (max-width: 425px){
+    margin-top: 20px;
+  }
+}
+
+.search-form input{ 
+  width: 120px;
+  margin-left: auto;
+  font-size: 3rem;
+  @media (min-width: 1024px){
+    width: 300px;
+  }
+  
+/*   margin: 0 30px 0; */
+}
+
+
+
+.search-form button{
+  margin: 0 30px 0 0;
+}
+
+.stellarnav .menu-toggle{
+  padding: 20px;
+}
+
+
+
+// .search-form{
+//   position: absolute;
+//   min-width: 100%;
+//   top: 0%;
+// }
+
+// .brand{
+//   position: absolute;
+// }
+
+
+.page-header-inner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 95vh;
+  padding: 20px 0;
+}
+
+/* .logo{
+  width: 300px;
+  @media (min-width: 768px){
+    width: 300px;
+    img{
+      margin-top: 0;
+    }
+  }
+} */
+
+.slogan{
+  background: rgba(255, 255, 255, 0.466);
+  padding: 2rem;
+  margin-top: auto;
+  width: 100%;
+  text-align: center;
+  p{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+}
+
+
+
+
+
+// .page-header{
+//   background: url('../images/bg_header.jpg') center bottom;
+//   background-size: cover;
+//   min-height: 50vh;
+//   box-shadow: 0 4px 20px $dark-gray;
+// }
+
+// .page-header-inner{
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   padding: 40px;
+
+//   @media (min-width: $bp-large){
+//     flex-direction: row;
+//     justify-content: space-between;
+//     align-items: flex-start;
+//   }
+
+// }

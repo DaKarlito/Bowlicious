@@ -657,6 +657,43 @@ h1 {
     flex-wrap: wrap;
 
 } */
+.les2dubas {
+  margin: 40px; }
+
+.formules {
+  display: flex; }
+  .formules img {
+    width: 600px; }
+
+.formules-content {
+  background: #F0EA42;
+  width: 588px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly; }
+  .formules-content .more {
+    margin: 0; }
+  .formules-content p {
+    padding: 2rem; }
+
+.crea {
+  display: flex; }
+  .crea img {
+    width: 600px; }
+
+.dyi-content {
+  background: #8BF8F4;
+  width: 588px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly; }
+  .dyi-content .more {
+    margin: 0; }
+  .dyi-content p {
+    padding: 2rem; }
+
 figure {
   display: flex;
   flex-direction: column;
@@ -683,24 +720,32 @@ figcaption {
   background: #D8AE00;
   color: #fff; }
 
-.dyi {
+.btngall {
   display: flex;
-  flex-direction: column;
-  align-items: center; }
+  justify-content: center;
+  margin: 40px; }
 
-.allofit {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
+/* .dyi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.basgauche {
-  background: #8BF8F4;
-  color: #fff; }
+.allofit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.basdroite {
-  background: #70A749;
-  color: #fff; }
+.basgauche{
+    background: #8BF8F4;
+    color: #fff;
+}
 
+.basdroite{
+    background: #70A749;
+    color: #fff;
+} */
 .valeurs {
   background: url("../img/bgvaleurs.jpg") center;
   background-size: cover;

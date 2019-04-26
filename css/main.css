@@ -355,6 +355,12 @@ h1 {
   font-family: 'futura', 'Croissant One', cursive;
   text-align: center; }
 
+p {
+  font-family: 'futura'; }
+
+a {
+  font-family: 'futura'; }
+
 .stellarnav.mobile.left > ul {
   z-index: 9999; }
 
@@ -646,6 +652,11 @@ h1 {
 .bowls {
   background: url("../img/bcgbowls.jpg") center;
   background-size: cover; }
+  .bowls h1 {
+    font-family: 'futura';
+    color: #9D1D64;
+    margin-top: 40px;
+    font-size: 3rem; }
 
 .gallery-1 {
   display: flex;
@@ -658,12 +669,11 @@ h1 {
 
 } */
 .les2dubas {
-  margin: 40px; }
+  margin: 40px 0; }
 
 .formules {
-  display: flex; }
-  .formules img {
-    width: 600px; }
+  display: flex;
+  margin-bottom: 30px; }
 
 .formules-content {
   background: #F0EA42;
@@ -678,7 +688,8 @@ h1 {
     padding: 2rem; }
 
 .crea {
-  display: flex; }
+  display: flex;
+  flex-direction: row-reverse; }
   .crea img {
     width: 600px; }
 
@@ -756,7 +767,8 @@ figcaption {
   min-height: 100vh; }
 
 .item img {
-  width: 93px; }
+  width: 100px;
+  height: 111px; }
 
 .item {
   display: flex;
@@ -770,7 +782,7 @@ figcaption {
   margin: 3rem; }
 
 .background-content {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.486);
   padding: 2rem;
   margin: 2rem;
   display: flex;
@@ -779,17 +791,26 @@ figcaption {
   flex-wrap: wrap;
   min-height: 80vh; }
 
+.restos h1 {
+  color: #9D1D64;
+  font-size: 3rem; }
+
 .restoflex {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #699555;
+  background: #00B2D3;
   padding: 2rem; }
 
 .franchise {
   background: url("../img/bg-franchise.jpg") center;
   background-size: cover;
   min-height: 100vh; }
+  .franchise h1 {
+    color: #9D1D64;
+    font-size: 3rem;
+    font-family: 'futura';
+    padding-top: 3rem; }
 
 .bcg-middle {
   display: flex;
@@ -801,16 +822,74 @@ figcaption {
   width: 80%;
   padding: 2rem;
   min-height: 80vh; }
+  .bcg-middle p.a {
+    font-size: 2rem;
+    font-family: "futura"; }
+  .bcg-middle p.b {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: 'futura'; }
+  .bcg-middle p.c {
+    width: 60%;
+    font-family: "futura"; }
 
 .joinus {
   background: url("../img/bgjoinus.jpg") center no-repeat;
   background-size: cover;
   min-height: 100vh; }
 
+.card-body {
+  background: #D8AE00;
+  border: none; }
+
+.communaute {
+  background: #9D1D64;
+  padding-top: 1rem; }
+  .communaute h1 {
+    color: #fff;
+    font-size: 3rem; }
+  .communaute h2 {
+    text-align: center;
+    color: #fff; }
+  .communaute p {
+    text-align: center;
+    color: #fff;
+    font-size: 2rem; }
+  .communaute h3 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding: 1rem; }
+
+.gallerie-insta {
+  margin: 0 auto; }
+
 .insta {
   display: flex;
   flex-direction: column;
   align-items: center; }
+  .insta img {
+    width: 150px;
+    height: 150px; }
+  .insta ul {
+    padding: 0; }
+
+.tem1 {
+  display: flex; }
+  .tem1 p {
+    font-size: 1rem; }
+
+.tem-content {
+  background: rgba(0, 0, 0, 0.445);
+  width: 600px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; }
+  .tem-content .more {
+    margin: 0; }
 
 ul li {
   list-style: none; }

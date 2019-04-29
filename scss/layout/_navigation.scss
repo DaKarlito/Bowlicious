@@ -1,14 +1,4 @@
 
-// .stellarnav.mobile.top{
-//     position: relative;
-//     width: 100%;
-//     top: 0;
-//     left: 0;
-//     z-index: 9999;
-// }
-
-
-
 .stellarnav.mobile.left>ul {
   z-index: 9999;
 }
@@ -69,4 +59,13 @@
 
 .stellarnav.mobile.dark ul{
   background: $purple;
+}
+
+.stellarnav.dark ul ul{
+  background: $purple;
+  color: #fff;
+}
+
+.call-btn-mobile{
+  font-size: 1.9rem;
 }

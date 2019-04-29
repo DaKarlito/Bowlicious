@@ -9,9 +9,12 @@ img{
 }
 
 nav ul{
-    list-style: none;
   margin: 0;
   padding: 0;
+}
+
+li{
+  list-style: none;
 }
 
 
@@ -22,6 +25,21 @@ nav ul{
 .titre{
   display: flex;
   justify-content: space-around;
+}
+
+h1,h2, h3, p, a{
+  font-family: 'futura';
+}
+
+h1{
+  font-size: 3rem;
+  @media (max-width: 425px){
+    font-size: 2rem;
+  }
+}
+
+p{
+  font-size: 1.5rem;
 }
 
 .more {
@@ -37,7 +55,7 @@ nav ul{
 }
 
 .more:hover {
-  background-color: #846b82;
+  background-color: $purple;
   transform: rotate(180deg);
 }
 
@@ -45,7 +63,7 @@ nav ul{
   content: '';
   width: 20px;
   height: 2px;
-  background-color: #846b82;
+  background-color: $purple;
   position: absolute;
   left: calc(50% - 10px);
   top: calc(50% - 1px);

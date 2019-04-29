@@ -6,7 +6,7 @@
     font-size: 1rem;
     cursor: pointer;
     transition: 0.3s;
-    background: #a51699;;
+    background: $purple;
   }
   
   ::placeholder{
@@ -17,14 +17,14 @@
   
   .search-form button:hover {
     color: #fff;
-    background-color: #846b82;
+    background-color: #c975c2;
   }
   
   .btn {
     text-align: center;
     display: inline-block;
     padding: 1em 2em;
-    background-color:  #a51699;
+    background-color:  $purple;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -33,11 +33,15 @@
   
   .btn:hover {
     background-color: #fff;
-    color:  #a51699;
-    box-shadow: inset 0 0 0 4px  #a51699
+    color:  $purple;
+    box-shadow: inset 0 0 0 4px  $purple;
   }
 
   .btn-rs{
     font-size: 0;
+  }
+
+  .btn-primary{
+    border: none;
   }
   

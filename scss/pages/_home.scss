@@ -7,11 +7,11 @@
     background: url('../img/bcgbowls.jpg') center;
     background-size: cover;
     h1{
-        font-family: 'futura';
         color: $purple;
         margin-top: 40px;
-        font-size: 3rem;
-              
+        @media (max-width: 425px){
+            font-size: 1.5rem;
+        }             
     }
 }
 
@@ -20,32 +20,59 @@
 .gallery-1{
      display: flex;
      flex-wrap: wrap;
+     .soustitre{
+         font-size: 1.7rem;
+         padding: 0 0 1rem;
+     }
+     p{
+         font-size: 1.2rem;
+         padding: 1rem;
+     }
 }
-
-/* .gallery-2{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-
-} */
 
 .les2dubas{
     margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    img{
+        width: 550px;
+        @media (max-width: 425px){
+            width: 300px;
+        }
+    }
 }
 
 .formules{
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 30px;
+    @media (max-width: 1024px){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h2{
+        @media (max-width: 425px){
+            text-align: center;
+        }
+    }
+
    
 }
 
 .formules-content{
     background: #F0EA42;
-    width: 588px;
+    width: 550px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    padding: 1rem;
+    @media (max-width: 425px){
+        width: 300px;
+    }
     .more{
         margin: 0;
     }
@@ -56,20 +83,33 @@
 
 .crea{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row-reverse;
+    @media (max-width: 1024px){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     img{
-        width: 600px;
+        width: 550px;
+        @media (max-width: 425px){
+            width: 300px;
+        }
     }
     
 }
 
 .dyi-content{
     background: #8BF8F4;
-    width: 588px;
+    width: 550px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    padding: 1rem;
+    @media (max-width: 425px){
+        width: 300px;
+    }
     .more{
         margin: 0;
     }
@@ -85,7 +125,6 @@ figure{
     align-items: center;
     max-width: 320px;
     margin: 30px auto;
-
 }
 
 figcaption{
@@ -117,28 +156,6 @@ figcaption{
     margin: 40px;
 }
 
-/* .dyi{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.allofit{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.basgauche{
-    background: #8BF8F4;
-    color: #fff;
-}
-
-.basdroite{
-    background: #70A749;
-    color: #fff;
-} */
-
 // ####################################
 //     VALEURS 
 // ###################################
@@ -151,7 +168,6 @@ figcaption{
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-
 }
 
 .item img{
@@ -163,12 +179,12 @@ figcaption{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     min-height: 60vh;
 }
 
 .item p{
-    width: 173px;
+    width: 250px;
     margin: 3rem;
 }
 
@@ -180,8 +196,13 @@ figcaption{
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    min-height: 80vh;
-  
+    min-height: 80vh;  
+}
+
+.labels{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 // ####################################
@@ -190,7 +211,7 @@ figcaption{
 
 .restos h1{
     color: $purple;
-    font-size: 3rem;
+    // font-size: 3rem;
 }
 
 .restoflex{
@@ -198,9 +219,22 @@ figcaption{
     flex-direction: column;
     align-items: center;
     background: #00B2D3;
-    padding: 2rem;
+    padding: 2rem;    
+}
 
-    
+.embed-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 600px;
+    @media (max-width: 768px){
+        width: 500px;
+        height: 360px;
+    }
+    @media (max-width: 425px){
+        width: 300px;
+        height: 200px;
+    }
 }
 
 
@@ -214,15 +248,11 @@ figcaption{
     background-size: cover;
     min-height: 100vh;
     h1{
-        color: $purple;
-        font-size: 3rem;
-        font-family: 'futura';
+        color:$purple;
         padding-top:3rem;
+        background: #fff;
     }
-
 }
-
-
 
 .bcg-middle{
     display: flex;
@@ -236,16 +266,31 @@ figcaption{
     min-height: 80vh;
     p.a{
         font-size: 2rem;
-        font-family: 'futura'
+        font-family: 'futura';
+        @media (max-width: 425px){
+            font-size: 1.5rem;
+            padding: 0.5rem;
+            text-align: center;
+        }
     }
     p.b{
         text-transform: uppercase;
         font-size: 3rem;
         font-family: 'futura';
+        @media (max-width: 1024px){
+            font-size: 2rem;
+        }
+        @media (max-width: 425px){
+            font-size: 1.5rem;
+            text-align: center;
+        }
     }
     p.c{
-        width: 60%;
-        font-family: 'futura'
+        width: 80%;
+        font-family: 'futura';
+        @media (max-width: 425px){
+            font-size: 1rem;
+        }
     }
 }
 
@@ -257,12 +302,19 @@ figcaption{
     background: url('../img/bgjoinus.jpg') center no-repeat;
     background-size: cover;
     min-height: 100vh;
+}
 
+.card{
+    border: none;
 }
 
 .card-body{
-    background: #D8AE00;
+    background: rgb(216, 173, 0);
     border: none;
+    .btn{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 
@@ -276,13 +328,12 @@ figcaption{
     padding-top: 1rem;
 
         h1{
-            color: #fff;
-            font-size: 3rem;
-          
+            color: #fff;       
         }
         h2{
             text-align: center;
             color: #fff;
+            padding: 2rem;
         }
         p{
             text-align: center;
@@ -317,15 +368,21 @@ figcaption{
 
 .tem1{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     p{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
+}
+
+.tem-imag{
+    width: 400px;
 }
 
 
 .tem-content{
     background: rgba(0, 0, 0, 0.445);
-    width: 600px;
+    width: 400px;
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -334,44 +391,48 @@ figcaption{
     .more{
         margin: 0;
     }
+}
 
+.stars{
+    padding: 1rem;
+}
 
+.fa-star{
+    color: #F0EA42;
+    font-size: 2rem;
+    padding: 0.25rem;
+    @media (max-width: 375px){
+        font-size:1.3rem;
+    }
 
 }
 
-
-
-ul li{
-    list-style: none;
-}
-
-.insta{
-    font-size: 0;
-  }
-  
-  .btn-rs{
-    font-size: 0;
-  }
-  
-  .socialbtns ul{
+.box{
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 0;
-    padding: 0;
-  }
-
- 
-  .news a{
-    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    width: 30%;
-  
-  }
+    align-items: center;
+    margin: 40px 0 0;
+}
 
-  .btn{
-      text-align: center;
-  }
+.sousbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    p{
+        font-size: 1rem;
+    }
+    .la1st{
+        background-color: rgba(165, 50, 21, 0.671);
+    }
+    .la2nd{
+        background-color: #D8AE00;
+    }
+}
+
+
 
   
 

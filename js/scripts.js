@@ -9,6 +9,7 @@ $(document).ready(function () {
     phoneBtn: '06 66 67 68 69',
     phoneLabel: 'appelez-nous',
     locationBtn: '',
+    sticky: true,
 
   });
   
